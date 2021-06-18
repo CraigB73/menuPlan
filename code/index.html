@@ -6,23 +6,77 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Weekly Menu</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<header>
-  <nav id="menuBar">
-    <ul>
-      <li><a href="">menu</a></li>
-      <li><a href="">Poultry</a></li>
-      <li><a href="">Meat</a></li>
-      <li><a href="">Pork</a></li>
-      <li><a href="">Fish</a></li>
-      <li><a href="">Vegetarian</a></li>
-    </ul>
-
-
-  </nav>
-</header>
 
 <body>
+  <!-- Page header and menu bar linking to indiviual food types with meal choices and receipes -->
+  <header>
+    <h1>What's to Eat!</h1>
+    <nav id="menuBar">
+      <ul>
+        <li id="menu"><a href="">menu</a></li>
+        <li id="poultry"><a href="">Poultry</a></li>
+        <li id="redMeat"><a href="">Red Meat</a></li>
+        <li id="pork"><a href="">Pork</a></li>
+        <li id="seafood"><a href="">Seafood</a></li>
+        <li id="vegetarian"><a href="">Vegetarian</a></li>
+        <li id="vegetarian"><a href="">Vegan</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div>
+    <p>Trying to plan what to eat can be so full of stress when you should just be full on good food.</p>
+    <p>Never be board again with eating the same meals over and over again. Balance nutrition made easy and stress free.
+    </p>
+  </div>
+  <!--  ***look up hoverable dropdown boxes*** 
+    quanity of meal choice with in food groups-->
+  <div class="dropdown">
+    <h3>Protein:</h3>
+    <button>Poultry</button>
+    <div class="group-content">
+      <a href="#">Chicken</a>
+      <a href="#">Turkey</a>
+      <a href="#">Duck</a>
+    </div>
+    <button>Red Meat </button>
+    <div class="group-content">
+      <a href="#">Beef</a>
+      <a href="#">Pork</a>
+      <a href="#">Lamb</a>
+    </div>
+
+    <h3>Seafood:</h3>
+    <button>Fish</button>
+    <div class="group-content">
+      <a href="#">Tuna</a>
+      <a href="#">Salmon</a>
+      <a href="#">White fish</a>
+    </div>
+    <button>Shellfish</button>
+    <div class="group-content">
+      <a href="#">Shrimp</a>
+      <a href="#">Crab</a>
+      <a href="#">Lobster</a>
+    </div>
+
+    <h3>Vegetarian:</h3>
+    <button>Pasta</button>
+    <div class="group-content">
+      <a href="#">Red Sauce</a>
+      <a href="#">White Sauce</a>
+    </div>
+    <button>Just Greens</button>
+    <div class="group-content">
+      <a href="#">Soups</a>
+      <a href="#">Salads</a>
+    </div>
+  </div>
+
+
+
+
 
 </body>
 
